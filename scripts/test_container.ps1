@@ -1,4 +1,3 @@
-Set-ExecutionPolicy Unrestricted
 $count = 0
 do {
     $count++
