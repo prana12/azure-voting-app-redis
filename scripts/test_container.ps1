@@ -6,7 +6,7 @@ do {
     $testStart = Invoke-WebRequest -Uri http://localhost:8080
 
     if ($testStart.statuscode -eq '200') {
-        $started = true
+        $started = $true
     } else {
         Start-Sleep -Seconds 1
     }
