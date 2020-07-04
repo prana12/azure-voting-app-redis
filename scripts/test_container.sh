@@ -1,4 +1,4 @@
-$count = 0
+count = 0
 
 echo "hello world..."
-echo "$count"
+echo ${count}
